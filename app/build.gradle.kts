@@ -52,6 +52,8 @@ dependencies {
 //    implementation(projects.features.writestory.data)
 //    implementation(projects.features.writestory.domain)
 
+    implementation(projects.theme)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
